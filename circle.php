@@ -301,7 +301,7 @@ if(google.maps.geometry.poly.containsLocation(stLoc, location[0])){
             alert("SMS sent");
           }
         };
-        xhttp.open("GET", "chikka.php?place="+p, true);
+        xhttp.open("GET", "www.syngkit.tk/devcup/chikka.php?place="+p, true);
         xhttp.send();
       }
 
