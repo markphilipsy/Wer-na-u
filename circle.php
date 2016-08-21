@@ -294,7 +294,15 @@ if(google.maps.geometry.poly.containsLocation(stLoc, location[0])){
       }
 
       function sendSMS(p){
-        alert("SMS: here at "+p)
+        
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (xhttp.readyState == 4 && xhttp.status == 200) {
+            alert("SMS sent");
+          }
+        };
+        xhttp.open("GET", "chikka.php?place="+p, true);
+        xhttp.send();
       }
 
     </script>
