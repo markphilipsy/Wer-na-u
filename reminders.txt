@@ -1,0 +1,13 @@
+compute if current location is inside a circle [if true:send text ]
+
+distance from 1 place to the other
+
+get current time for passing of location
+
+save locations in every refresh to compute average speed
+
+get data near the circle for texting
+
+
+
+
